@@ -1,2 +1,44 @@
-/nbproject/private/
-/build/
+# Maven build output
+
+/target/
+
+# Eclipse files (if ever used)
+
+/bin/
+/*.classpath
+/*.project
+/*.settings/
+
+# IntelliJ IDEA
+
+/.idea/*
+!.idea/modules.xml
+!.idea/misc.xml
+!.idea/vcs.xml
+!.idea/runConfigurations/
+/*.iml
+
+# Ignore workspace and personal settings
+
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/dictionaries/
+/.idea/libraries/
+/.idea/.name
+
+# Logs and temporary files
+
+*.log
+*.tmp
+*.swp
+
+# OS-specific files
+
+.DS_Store
+Thumbs.db
+
+# Maven wrapper
+
+/mvnw
+/mvnw.cmd
+/.mvn/
