@@ -25,6 +25,6 @@ jobs:
       # mvn package - compiles code and creates a JAR or WAR
       # mvn clean  - erases target folder before starting
       #  -B is batch mode - reduces log output
-      run: mvn -B test
+      run: mvn -B package
 
 
