@@ -27,4 +27,11 @@ jobs:
       #  -B is batch mode - reduces log output
       run: mvn -B clean test
 
+# Upload the generated JAR artifact if the build succeeds
+    - name: Upload JAR file
+      uses: actions/upload-artifact@v4
+      with:
+       name: package-artifact
+       path: target/*.jar
+
 
