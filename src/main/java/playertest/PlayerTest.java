@@ -13,7 +13,9 @@ package playertest;
    String playerName;
     
     public static void main(String[] args) {
-        ; // no need for any code here - run from JUnit tests
+        System.out.println("Welcome to the player test");
+        PlayerTest player = new PlayerTest();
+        System.out.println(player.getPlayerName());
     }
     
     PlayerTest () {
